@@ -21,6 +21,6 @@ Route::get('/login' , function(){
 Route::get('not', function () {
     //return User::find(2)->businesses()->get();
     return User::with('businesses')->get();
-    return response()->json(['message' => 'fuck you']);
+    return response()->json(['message' => 'fuck']);
 });
 
