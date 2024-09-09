@@ -23,5 +23,7 @@ Route::get('not', function () {
     return User::with('businesses')->get();
     return response()->json(['message' => 'jehad']);
     return response()->json(['message' => 'this is master']);
+    return response()->json(['message' => 'fuck']);
+    return response()->json(['message' => 'this is feature']);
 });
 
