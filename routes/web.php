@@ -24,7 +24,7 @@ Route::get('not', function () {
     return response()->json(['message' => 'jehad']);
     return response()->json(['message' => 'this is master']);
     return response()->json(['message' => 'fuck']);
-    return response()->json(['message' => 'this is the cool feature jumbogit']);
+    return response()->json(['message' => 'this is the cool feature jumbogit2']);
 
 
 });
