@@ -50,7 +50,7 @@ class ReviewsController extends Controller
         return response()->json($v->errors()->first());
 
         if(! Auth()->id())
-        return response()->json(['message' => 'unautharized']);
+        return response()->json(['message' => 'unautharized']); 
         $r=Review::create(array_merge($v->validated(), ['user_id' => Auth::id() ]));
         return response()->json(['message'  => 'created successfuly'] , 201);
 
