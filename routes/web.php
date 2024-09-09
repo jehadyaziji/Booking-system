@@ -22,5 +22,6 @@ Route::get('not', function () {
     //return User::find(2)->businesses()->get();
     return User::with('businesses')->get();
     return response()->json(['message' => 'jehad']);
+    return response()->json(['message' => 'this is master']);
 });
 
