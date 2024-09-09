@@ -24,6 +24,7 @@ Route::get('not', function () {
     return response()->json(['message' => 'jehad']);
     return response()->json(['message' => 'this is master']);
     return response()->json(['message' => 'fuck']);
-    return response()->json(['message' => 'this is feature']);
+    return response()->json(['message' => 'this is feature rebased']);
+
 });
 
